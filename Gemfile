@@ -7,7 +7,8 @@ ruby '2.5.5'
 gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4'
-gem 'mysql2', '0.5.2' #version de la gema mysql
+gem 'pg', '1.1.4'
+#gem 'mysql2', '0.5.2' #version de la gema mysql
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -30,8 +31,8 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails', '~> 4.3.5'
 
-gem 'redis' 
-gem 'hiredis'
+gem 'redis', '4.1.2'
+gem 'hiredis', '0.6.3'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
